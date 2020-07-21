@@ -1,18 +1,13 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <mv-svg-icon iconClass="favorites-fill"></mv-svg-icon>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import mixin from '@/utils/mixin'
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
+  mixins: [mixin]
 }
 </script>

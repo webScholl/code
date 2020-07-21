@@ -1,0 +1,4 @@
+export const SET_LOADING = 'SET_LOADING'
+export const GET_USERINFO = 'GET_USERINFO'
+export const SET_USERINFO = 'GET_USERINFO'
+export const CLEAR_USERINFO = 'CLEAR_USERINFO'

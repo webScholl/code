@@ -1,24 +1,16 @@
-# code
+# 两只黄鹂鸣翠柳，一堆bug上西天。
 
-## Project setup
+## 开发
 ```
-npm install
+# 安装依赖
+npm i
+# 启动服务
+npm run dev
 ```
-
-### Compiles and hot-reloads for development
+## 发布
 ```
-npm run serve
+# 构建测试环境
+npm run build:test
+# 构建生产环境
+npm run build:prod
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
